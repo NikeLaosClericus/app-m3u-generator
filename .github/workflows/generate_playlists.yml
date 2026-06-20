@@ -54,6 +54,11 @@ jobs:
             sed -i "s|url-tvg=\"tubi_epg.xml\"|url-tvg=\"$GITHUB_RAW_URL\"|g" playlists/tubi_all.m3u
           fi
 
+          - name: Delete line containing text
+          # -i edits the file in-place
+          # /pattern/d deletes lines matching the pattern
+          sed -i '/newsmax/Id {N;d;}' playlists/plutotv_us.m3u
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
