@@ -72,6 +72,9 @@ jobs:
           sed -i '/fanduel/I{N;d;}' playlists/plutotv_us.m3u               # Gambling
           sed -i '/Gospel/I{N;d;}' playlists/plutotv_us.m3u                # Religious
           sed -i '/En Español/I{N;d;}' playlists/plutotv_us.m3u            # Spanish
+          sed -i '/Reino/I{N;d;}' playlists/plutotv_us.m3u                 # Spanish
+          sed -i '/Telemundo/I{N;d;}' playlists/plutotv_us.m3u             # Spanish
+          sed -i '/Latino/I{N;d;}' playlists/plutotv_us.m3u                # Spanish
           # sed -i '//I{N;d;}' playlists/plutotv_us.m3u
 
       - name: Commit and Push Changes
