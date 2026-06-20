@@ -57,7 +57,7 @@ jobs:
       - name: Delete lines containing text
         run: |
           # PlutoTV_US
-          sed -i '/newsmax/Id {N;d;}' playlists/plutotv_us.m3u
+          sed -i '/newsmax/I{N;d;}' playlists/plutotv_us.m3u
 
       - name: Commit and Push Changes
         run: |
