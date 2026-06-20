@@ -57,7 +57,22 @@ jobs:
       - name: Delete lines containing text
         run: |
           # PlutoTV_US
-          sed -i '/newsmax/I{N;d;}' playlists/plutotv_us.m3u
+          sed -i '/Dog the Bounty Hunter/I{N;d;}' playlists/plutotv_us.m3u # Conservative
+          sed -i '/Ancient Aliens/I{N;d;}' playlists/plutotv_us.m3u        # Conspiracy
+          sed -i '/Ghost Hunters/I{N;d;}' playlists/plutotv_us.m3u         # Conspiracy
+          sed -i '/Dr.*Phil/I{N;d;}' playlists/plutotv_us.m3u              # MAGA
+          sed -i '/Robbins/I{N;d;}' playlists/plutotv_us.m3u               # MAGA
+          sed -i '/newsmax/I{N;d;}' playlists/plutotv_us.m3u               # Conservative
+          sed -i '/Fox/I{N;d;}' playlists/plutotv_us.m3u                   # Conservative
+          sed -i '/Blaze/I{N;d;}' playlists/plutotv_us.m3u                 # Conservative
+          sed -i '/America.*Voice/I{N;d;}' playlists/plutotv_us.m3u        # Conservative
+          sed -i '/OAN/I{N;d;}' playlists/plutotv_us.m3u                   # Conservative
+          sed -i '/Salem/I{N;d;}' playlists/plutotv_us.m3u                 # Conservative
+          sed -i '/"The First"/I{N;d;}' playlists/plutotv_us.m3u           # Conservative
+          sed -i '/fanduel/I{N;d;}' playlists/plutotv_us.m3u               # Gambling
+          sed -i '/Gospel/I{N;d;}' playlists/plutotv_us.m3u                # Religious
+          sed -i '/En Español/I{N;d;}' playlists/plutotv_us.m3u            # Spanish
+          # sed -i '//I{N;d;}' playlists/plutotv_us.m3u
 
       - name: Commit and Push Changes
         run: |
