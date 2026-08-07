@@ -159,7 +159,7 @@ def generate_pluto_m3u():
                     ch['name']
                 ),
                 f'https://streamlink.zappr.stream/hls-segment-stream-data=True&hls-segment-ignore-names=".*(_ad|_bumper).*"&hls-segment-skip-discontinuity=True&hls-live-edge=2&hls-live-restart=True
-/https://jmp2.uk/plu-{ch['original_id']}.m3u8\n'
+/https://jmp2.uk/plu-{ch["original_id"]}.m3u8\n'
             ])
 
         write_m3u_file(f"plutotv_{region}.m3u", "".join(output_lines))
