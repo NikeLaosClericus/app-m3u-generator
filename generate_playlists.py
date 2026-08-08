@@ -147,7 +147,7 @@ def generate_pluto_m3u():
 
         for c_id, ch in sorted_channels:
             group_title = ch['country_group'] if is_all else ch['service_group']
-            streamlink_options = "hls-segment-stream-data=True&hls-segment-ignore-names='.*(_ad|_bumper).*'&hls-segment-skip-discontinuity=True&hls-live-edge=2&hls-live-restart=True"
+            streamlink_options = "hls-segment-stream-data=True&hls-segment-skip-discontinuity=True&hls-live-edge=2&hls-live-restart=True"
             video_id = ch['original_id']
 
             output_lines.extend([
