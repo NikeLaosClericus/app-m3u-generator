@@ -49,8 +49,6 @@ https://jmp2.uk/stvp-ESBD800001RJ
 https://jmp2.uk/stvp-ES2300005G7
 #EXTINF:-1 channel-id="ESBC2700011AZ" tvg-id="ESBC2700011AZ" tvg-chno="4872" tvg-name="Cines Verdi TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700011AZ_20241022T050514SQUARE.png" group-title="Cine",Cines Verdi TV
 https://jmp2.uk/stvp-ESBC2700011AZ
-#EXTINF:-1 channel-id="ES1700003C6" tvg-id="ES1700003C6" tvg-chno="4222" tvg-name="CJ ENM K-Novela en Español" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1700003C6_20260804T051153SQUARE.png" group-title="Entretenimiento",CJ ENM K-Novela en Español
-https://jmp2.uk/stvp-ES1700003C6
 #EXTINF:-1 channel-id="ES3900001QG" tvg-id="ES3900001QG" tvg-chno="4750" tvg-name="CJ ENM K-POP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3900001QG_20260804T051159SQUARE.png" group-title="Música & ambiente",CJ ENM K-POP
 https://jmp2.uk/stvp-ES3900001QG
 #EXTINF:-1 channel-id="ESBC4100003WE" tvg-id="ESBC4100003WE" tvg-chno="4771" tvg-name="Clan" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100003WE_20260622T063701SQUARE.png" group-title="Niños",Clan
@@ -59,8 +57,6 @@ https://jmp2.uk/stvp-ESBC4100003WE
 https://jmp2.uk/stvp-ES32000027M
 #EXTINF:-1 channel-id="ESBD36000026Z" tvg-id="ESBD36000026Z" tvg-chno="4563" tvg-name="CNBC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD36000026Z_20260317T034118SQUARE.png" group-title="Noticias",CNBC
 https://jmp2.uk/stvp-ESBD36000026Z
-#EXTINF:-1 channel-id="ES34000039I" tvg-id="ES34000039I" tvg-chno="4569" tvg-name="CNN en Español" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES34000039I_20260622T063630SQUARE.png" group-title="Noticias",CNN en Español
-https://jmp2.uk/stvp-ES34000039I
 #EXTINF:-1 channel-id="ESBD190000137" tvg-id="ESBD190000137" tvg-chno="4561" tvg-name="CNN Headlines International" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD190000137_20260331T032325SQUARE.png" group-title="Noticias",CNN Headlines International
 https://jmp2.uk/stvp-ESBD190000137
 #EXTINF:-1 channel-id="ES260000700" tvg-id="ES260000700" tvg-chno="4908" tvg-name="Comedia - Rakuten TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260000700_20241022T051222SQUARE.png" group-title="Cine",Comedia - Rakuten TV
@@ -337,8 +333,6 @@ https://jmp2.uk/stvp-ESBA3300042Y6
 https://jmp2.uk/stvp-ESBA3300043M0
 #EXTINF:-1 channel-id="ESBC1700004PX" tvg-id="ESBC1700004PX" tvg-chno="4868" tvg-name="Trailers" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC1700004PX_20250715T004332SQUARE.png" group-title="Cine",Trailers
 https://jmp2.uk/stvp-ESBC1700004PX
-#EXTINF:-1 channel-id="ESBC2100002LV" tvg-id="ESBC2100002LV" tvg-chno="4683" tvg-name="Vevo Latino" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2100002LV_20260707T051048SQUARE.png" group-title="Música & ambiente",Vevo Latino
-https://jmp2.uk/stvp-ESBC2100002LV
 #EXTINF:-1 channel-id="ESBC2100001IU" tvg-id="ESBC2100001IU" tvg-chno="4689" tvg-name="Vevo Pop" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2100001IU_20241022T051146SQUARE.png" group-title="Música & ambiente",Vevo Pop
 https://jmp2.uk/stvp-ESBC2100001IU
 #EXTINF:-1 channel-id="ESBD230000289" tvg-id="ESBD230000289" tvg-chno="4685" tvg-name="Vevo Retro" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD230000289_20250513T005434SQUARE.png" group-title="Música & ambiente",Vevo Retro
