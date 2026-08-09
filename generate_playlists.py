@@ -166,7 +166,6 @@ def generate_pluto_m3u():
         write_m3u_file(f"plutotv_{region}.m3u", "".join(output_lines))
 
 def generate_plex_m3u():
-    streamlink_options = "hls-segment-stream-data=True&hls-segment-skip-discontinuity=True&hls-live-edge=2&hls-live-restart=True"
     data = fetch_url('https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/Plex/.channels.json.gz', is_json=True, is_gzipped=True)
     if not data or 'channels' not in data: return
     found_regions = set()
@@ -183,7 +182,7 @@ def generate_plex_m3u():
         if channel_list:
             channel_list.sort(key=lambda x: (0 if x[0] in TOP_REGIONS else 1, x[1]))
             for _, _, extinf, url in channel_list: output_lines.extend([extinf, url])
-            write_m3u_file(f"https://streamlink.zappr.stream/{streamlink_options}/plex_{region}.m3u", "".join(output_lines))
+            write_m3u_file(f"plex_{region}.m3u", "".join(output_lines))
 
 def generate_samsungtvplus_m3u():
     data = fetch_url('https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/.channels.json.gz', is_json=True, is_gzipped=True)
